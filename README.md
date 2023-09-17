@@ -8,8 +8,8 @@ You can checkout the live website here:👉🏻 https://rebrand.ly/wavy-project.
      <td>Slide through notes</td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/80835250/176178872-da3e0470-38d1-4e71-9eaa-f0ca29ba84ba.png" width="400"></td>
-    <td><img src="https://user-images.githubusercontent.com/80835250/176177379-2a7788af-a8c1-4d5d-874c-04f4ab74cbd4.png" width="400"></td>
+    <td><img src="https://github.com/skyber71/wave-app/assets/80835250/ae928c88-d672-4716-a604-218a1958451a.png" width="400"></td>
+    <td><img src="https://github.com/skyber71/wave-app/assets/80835250/ae928c88-d672-4716-a604-218a1958451a" width="400"></td>
     <td><img src="https://user-images.githubusercontent.com/80835250/176178656-b5bb2fed-428c-4c7d-abe6-42a7a590f6f3.png" width="400"></td>
   </tr>
  </table>
