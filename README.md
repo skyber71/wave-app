@@ -42,10 +42,6 @@ You can checkout the live website here:👉🏻 https://rebrand.ly/wavy-project.
  
 A real-time chat application built with Node.js and Socket.io that provides secure message encryption and user authorization.
 
-## Overview
-
-This web application allows users to chat with each other in real-time. It provides a secure and private chat experience by encrypting messages with unique keys for each conversation. User authentication ensures that only authorized users can access the chat rooms.
-
 ## Features
 
 - Real-time chat with multiple users.
