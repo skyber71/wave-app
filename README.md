@@ -21,8 +21,8 @@ To set up this chat application on your local machine, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/chat-web-app.git
-   cd chat-web-app
+   git clone https://github.com/skyber71/wave-app.git
+   cd wave-app
 ## Usage
 Create an account or log in with your credentials.
 Once logged in, you can:
