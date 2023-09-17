@@ -14,25 +14,18 @@ You can checkout the live website here:👉🏻 https://rebrand.ly/wavy-project.
 
  <table>
   <tr>
-
-     <td>Mobile Friendly UI</td>
+    <td>Mobile Friendly UI</td>
+     <td>Slide through notes</td>
      
   </tr>
   <tr>
 <td><img src="https://github.com/skyber71/wave-app/assets/80835250/75f18f75-c3ce-43f3-b998-cd4445320159.png" width="400"></td>
-
-  </tr>
- </table>
-
- <table>
-  <tr>
- <td>Slide through notes</td>
-  </tr>
-  <tr>
    <td><img src="https://github.com/skyber71/wave-app/assets/80835250/9948cdb5-0302-4544-8954-1da1602046c3.png" width="400"></td>
+
   </tr>
  </table>
 
+ 
 A real-time chat application built with Node.js and Socket.io that provides secure message encryption and user authorization.
 
 ## Overview
