@@ -13,13 +13,11 @@ const algorithm = process.env.ALGORITHM;
 const io = require("socket.io")(http);
 var usp = io.of("/user-namespace");
 usp.on("connection",async (socket)=>{
-    console.log("User Connected");
     var userId = socket.handshake.auth.token;
     await User.findByIdAndUpdate({_id:userId},{$set:{ is_online:'1'}});
     socket.broadcast.emit("getOnlineUser",{user_id:userId});
 
     socket.on("disconnect",async ()=>{
-        console.log("Usr disconnected");
         var userId = socket.handshake.auth.token;
         await User.findByIdAndUpdate({_id:userId},{$set:{ is_online:'0'}});
         socket.broadcast.emit("getOfflineUser",{user_id:userId});
@@ -59,4 +57,4 @@ usp.on("connection",async (socket)=>{
         socket.emit("loadReceiver",{receiverUser: receiverUser});
     })
 });
-http.listen(3000,()=>{console.log("Server Started on Port 3000");})
+http.listen(3000)
