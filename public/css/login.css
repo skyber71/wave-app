@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+*{
+    font-family: sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.css-input {
+    padding: 5px;
+    font-size: 16px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 15px;
+}
+.css-input:focus {
+    outline:none;
+}
+
+*{
+    font-family: 'Poppins', 'sans-serif';
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.main{
+    min-height: 70vh;
+}
+
+.headin1{
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    right: 25px;
+    text-align: center;
+    width: 90%;
+}
+
+
+.info{
+    border-radius:  50px;
+    background-size: cover;
+    height: 100%;
+    width: 60%;
+}
+.form{
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.48);
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    background-color: #9b60d2;
+    margin: 50px auto;
+    height: 380px;
+    width: 608px;
+    display: block;
+    border-radius: 50px;
+    background-color: white;
+    width: 40%;
+}
+.headin{
+    background: #FFFFFF;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    width: 60%;
+    padding: 30px 10px 10px 10px;
+    font-size: 35px;
+}
+.register{
+    border-top: 1px solid silver;
+    font-size: 13px;
+    padding: 15px 10px 0;
+}
+.register a{
+    color: blue;
+}
+.form-small form{
+    padding: 10px;
+}
+.form-small .text-filed{
+    margin: 20px 0;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+
+}
+.text-filed input{
+    outline: none;
+    background: none;
+    border: none;
+    height: 20px;
+    width: 100%;
+}
+
+
+
+
+
+input[type="submit"]{
+    transition: 0.2s all;
+    margin-right: 20px;
+    cursor: pointer;
+    float: right;
+    width: 30%;
+    height: 40px;
+    border: 1px solid;
+    background: rgb(17, 188, 226);
+    border-radius: 25px;
+    font-size: 15px;
+    color: #e9f4fb;
+    font-weight: 700;
+    
+}
+input[type="submit"]:active{
+    transform: scale(0.7);
+}
+input[type="submit"]:hover{
+    background-color: rgb(6, 29, 52);
+}
+
+@media screen and (max-width: 800px) {
+    .info{
+        display: none;
+    }
+    .form{
+        border-radius: 50px;
+        width: 100%;
+    }
+    .container{
+        width: 300px;
+        
+    }
+}
+
+.creden{
+    color: red;
+    padding: 10px;
+}

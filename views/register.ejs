@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/login.css">
+    <title>Wavy | Register</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to Wavy</h1>
+    </div>
+    <div class="main">
+        
+            <div class="form">
+                <div class="headin">
+                    <strong>Register yourself!</strong>
+                </div>
+                
+                <div class="form-small">
+                    <form action="" method="POST">
+                        <div class="text-filed">
+                            <input type="text" name="username" placeholder="Enter the Username" id="" required>
+                        </div>
+                        <div class="text-filed">
+                            <input type="password" name="password" placeholder="Enter the password" id="" required>
+                        </div>
+                        <input type="submit" value="Register">
+                    </form>
+                    
+                </div>
+                <div class="creden">
+                    <%
+    if(typeof message !== 'undefined'){
+        %>
+        <p style="color: green;"><%= message%></p>
+        <p>Please <a href="/">Login Here</a></p>
+        <%
+ 
+    }
+%>
+
+                </div>
+                 
+            
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
