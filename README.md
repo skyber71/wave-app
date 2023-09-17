@@ -3,25 +3,27 @@ You can checkout the live website here:👉🏻 https://rebrand.ly/wavy-project.
 
 <table>
   <tr>
-    <td>Desktop Version of Web-App</td>
-     
-  </tr>
-  <tr>
-    <td><img src="https://github.com/skyber71/wave-app/assets/80835250/ae928c88-d672-4716-a604-218a1958451a.png" width="400"></td>
-   
-  </tr>
- </table>
-
- <table>
-  <tr>
     <td>Mobile Friendly UI</td>
      <td>Slide through notes</td>
      
   </tr>
   <tr>
+    <td><img src="https://github.com/skyber71/wave-app/assets/80835250/ae928c88-d672-4716-a604-218a1958451a.png" width="400"></td>
 <td><img src="https://github.com/skyber71/wave-app/assets/80835250/75f18f75-c3ce-43f3-b998-cd4445320159.png" width="400"></td>
-   <td><img src="https://github.com/skyber71/wave-app/assets/80835250/9948cdb5-0302-4544-8954-1da1602046c3.png" width="400"></td>
+   
 
+  </tr>
+ </table>
+
+ <table>
+  <tr>
+    <td>Desktop Version of Web-App</td>
+     
+  </tr>
+  <tr>
+    
+    <td><img src="https://github.com/skyber71/wave-app/assets/80835250/9948cdb5-0302-4544-8954-1da1602046c3.png" width="400"></td>
+   
   </tr>
  </table>
 
