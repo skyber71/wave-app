@@ -3,8 +3,8 @@ You can checkout the live website here:👉🏻 https://rebrand.ly/wavy-project.
 
 <table>
   <tr>
-    <td>Mobile Friendly UI</td>
-     <td>Slide through notes</td>
+    <td>Login Page!</td>
+     <td>You can register yourself!</td>
      
   </tr>
   <tr>
@@ -14,10 +14,17 @@ You can checkout the live website here:👉🏻 https://rebrand.ly/wavy-project.
 
   </tr>
  </table>
+ 
+## Features
 
+- Real-time chat with multiple users.
+- Secure user authentication.
+- End-to-end encryption for messages.
+- Unique encryption keys for each conversation.
+ 
  <table>
   <tr>
-    <td>Desktop Version of Web-App</td>
+    <td>This is what your chat window looks like.</td>
      
   </tr>
   <tr>
