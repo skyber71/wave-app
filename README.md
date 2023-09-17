@@ -44,6 +44,14 @@ Tech Used: Node.js, socket.io, crypto (node.js module), MongoDB, HTML, CSS, Java
  
 A real-time chat application built with Node.js and Socket.io that provides secure message encryption and user authorization.
 
+## Encryption
+Messages exchanged between users are encrypted using a unique key for each conversation. The encryption process ensures that messages are secure and private. The key for encryption is generated based on the users involved in the conversation.
+- We have a key pre declared for everyone while registering. Our encryption is the combination of the two keys plus one public key.
+- User A Key: "poiuyt"
+- User B Key: "mnbvc"
+- Public Key: "KEY"
+Hence the key for our encryption will be: "poiuytmnbvcKEY", So that we can have a unique key for each conversation.
+
 ## Features
 
 - Real-time chat with multiple users.
@@ -73,5 +81,4 @@ User authentication is implemented to ensure that only authorized users can acce
 User registration: Create a new account with a unique username and password.
 User login: Log in using your registered username and password.
 Session management: Keep users logged in between sessions.
-## Encryption
-Messages exchanged between users are encrypted using a unique key for each conversation. The encryption process ensures that messages are secure and private. The key for encryption is generated based on the users involved in the conversation.
+
