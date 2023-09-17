@@ -22,7 +22,7 @@ You can checkout the live website here:👉🏻 https://rebrand.ly/wavy-project.
   </tr>
   <tr>
     
-    <td><img src="https://github.com/skyber71/wave-app/assets/80835250/9948cdb5-0302-4544-8954-1da1602046c3.png" width="400"></td>
+  <td><img src="https://github.com/skyber71/wave-app/assets/80835250/9948cdb5-0302-4544-8954-1da1602046c3.png" width="400"></td>
    
   </tr>
  </table>
