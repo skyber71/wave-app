@@ -1,6 +1,11 @@
 # Chat Web App with Message Encryption and User Authentication
 You can checkout the live website here:👉🏻 https://rebrand.ly/wavy-project.
 
+# Short Intro
+- A messenger like web-app to make conversations with other users, built with a user-friendly design.
+- Implemented end-to-end encryption of web app conversations using the crypto package; safeguarded user privacy and prevented unauthorized access to sensitive data, ensuring complete confidentiality.
+- Displayed online/offline status indicators for users, allowing real-time visibility of user availability. Leveraged MongoDB for scalability to accommodate a larger user base, enabling real-time conversations.
+
 <table>
   <tr>
     <td>Login Page!</td>
