@@ -35,6 +35,7 @@ const register = async(req,res)=>{
             key: result
         });
         await user.save();
+        console.log("A new user with username:",user.username,"has been registered");
         res.render("register",{message:"You have been registerd successfully!"});
     } catch (error) {
         console.log(error.message);
@@ -62,6 +63,7 @@ const login = async (req,res)=>{
             const passwordMatch = await bcrypt.compare(password,userData.password);
             if(passwordMatch){
                 req.session.user = userData;
+                console.log(req.session.user.username, "has logged in!");
                 res.redirect("/dashboard");
             }
             else{
@@ -81,6 +83,7 @@ const logout = async (req,res)=>{
         if(!req.session.user){
             res.redirect("/");
         }
+        console.log(req.session.user.username, "has been logged out");
         req.session.destroy();
         res.redirect("/");
     } catch (error) {
@@ -126,6 +129,7 @@ const saveChat = async (req,res)=>{
             iv:base64data
         });
         var newChat = await chat.save();
+        console.log("A message was exchanged between", chat.senderId, "and", chat.receiverId)
         const originalIV = Buffer.from(newChat.iv, "base64");
         const decipher = crypto.createDecipheriv(algorithm,key,originalIV);
         let decryptedData = decipher.update(newChat.message,"hex","utf-8");
