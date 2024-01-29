@@ -10,6 +10,7 @@ WORKDIR /app
 # Install dependencies
 RUN npm install
 
+
 # Stage 2: Production Stage
 FROM node:21-alpine as production
 
